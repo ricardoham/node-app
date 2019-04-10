@@ -1,7 +1,6 @@
-const request = require('request')
-const url = ''
+const weather = require('./weather');
 
-request({
-  url: url,
-  json: true
-})
+weather(function (currentWeather) {
+  console.log(currentWeather);
+});
+
