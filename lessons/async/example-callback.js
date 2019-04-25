@@ -1,5 +1,5 @@
 const weather = require('./weather');
-const location = require('./location.js');
+const location = require('./location.js.js');
 const argv =  require('yargs')
   .option('location', {
     alias: 'l',
